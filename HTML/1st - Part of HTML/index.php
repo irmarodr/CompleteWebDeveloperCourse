@@ -83,14 +83,16 @@
 					<ol type="a">
                         <li>Numbers</li>
                         <li>Reversed Numbers</li>
-                        <li>Capital (ABC) / Small Letters (abc)</li>
-                        <li>Capital / Small Roman Numerals</li>
+                        <li>Capital Letters (ABC)</li>
+                        <li>Small Letters (abc)</li>
+                        <li>Capital Roman Numerals (III)</li>
+                        <li>Small Roman Numerals (iii)</li>
                     </ol>
 					</ol>													
                     
                     
 			<h3>Images:</h3>
-                    <img src="https://www.lakeforest.edu/live/image/gid/30/width/467/height/467/crop/1/src_region/222,6,884,668/48665_rubus-odoratus-fl-atal.rev.1541603768.jpg" width=200><br>
+                    <img src= "Flower.jpeg" width=200><br>
                         <small>This a Robus Odoratus (the size of the image can be changed)</small>
                         
                         
@@ -113,7 +115,7 @@
 					</ol>
                     
                     <ol start=3>
-						<li>Radio - Circular Ticks</li>
+						<li>Circular Ticks:</li>
 								<ol type=a>
 									<li>Only 1 Can Be Selected:</li>
 										Under 18:<input type="radio" name=age><br>
@@ -149,9 +151,14 @@
 						<li>Buttons:</li>
 								<ol type=a>
 									<li>Submit Button: <input type=submit></li>
-									<li>Click me: <input type=submit value="click me"></li>
+									
+									<form action="https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins">
+										<li><p>Want to know more? (leads to another link)</p></li>
+									 <input type=submit value="click here">
+									</form>
 								</ol>
 					</ol>
+								
 					
 									
 					
@@ -180,8 +187,8 @@
 									</tr>
 
 									<tr>
-										<td>Anna</td>
-										<td>Pink</td>
+										<td>Ofelia</td>
+										<td>Rosa</td>
 									</tr>
 
 								</tbody>
@@ -203,7 +210,7 @@
 				</ol>
 					
 				<ol start="2">
-					<li>Relative Links:</li>
+					<li>Relative Links:</li> - Link is broken
 							<ol type="a">
 								<li>Within our Website:</li>
 								<a href=testing-webpage.html><ins>Testing Webpage</ins></a>

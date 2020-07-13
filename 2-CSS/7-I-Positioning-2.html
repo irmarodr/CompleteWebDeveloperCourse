@@ -1,0 +1,102 @@
+<!doctype html>
+<html> 
+<!--Z-INDEX POSITIONING-->
+	
+	
+	
+<!--USED WHEN LAYERING-->
+<!--want section 2 to be on top by adding a z-index-->
+	<!--the one with the biggest z-index will be on top; But positioning is required-->
+<!--Therefore now section 2 is on top on section 1-->
+	
+	
+<!--want section 2 to be SEE THROUGH-->
+	<!--add: opacity: 1 - is completely solid; opacity:0 - will be completely invisible; opacity:0.5 - can be seen but see through-->
+<head>
+	
+			<title>Floating</title>
+			 
+					<style type="text/css">
+
+						.red {
+
+							 color: red;  
+
+						}
+
+						.large {
+
+							font-size: 200%;
+
+						}
+
+						.underlined {
+
+							text-decoration: underline;
+
+						}
+
+
+						#green {
+
+							color: green
+
+						}
+						
+						#first-section {
+							
+							color: #4385F4;
+							background-color: #4BEAAF;
+							width: 200px;
+							position: relative;
+							left:100px;
+							top:100px;
+							z-index: 1;
+							
+							
+						}
+						
+						.second-section {
+							
+							background-color: #A986F0;
+							width: 200px;
+							position: relative;
+							z-index: 2;	
+							opacity: 0.5;
+							
+						}
+						 
+						
+					</style>
+						
+		</head>
+	 
+	
+		<body> 
+			
+			
+				
+			
+				<div id="first-section">
+						<p>The Quick Brown Fox Jumped Over the Lazy Dog</p>
+
+						<p>Wow I love Internal CSS</p>
+				</div>
+
+			
+		
+			
+				<div class=second-section>
+						<p id="green">This is some more text. <span class="underlined">And this text will become underlined</span></p>
+
+						<h1 class="red">CSS is cool!</h1>
+				</div>
+
+		
+			<p>This paragraph is not floated!</p>
+			  
+			
+		</body>
+  
+
+</html> 

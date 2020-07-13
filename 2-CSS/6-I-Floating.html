@@ -1,0 +1,112 @@
+<!doctype html>
+<html> 
+
+<!--will be changing the position of the different sections-->
+	
+	
+	<!--Changing the width of my divs: section 1 & 2 to 200px-->
+	<!--We want div section 1 on the right side--> 
+			<!--make sure to add in the style section: float:right;-->
+	
+	<!--We want div section 1 on the left side--> 
+			<!--make sure to add in the style section: float:left; this removes the margin that was there previously.-->
+	
+	<!--We want div section 1 and 2 to be next to each other on the left side--> 
+			<!--make sure to add in both style sections 1 & 2: float:left; this removes the margin that was there previously and puts both boxes next to each other on the left side-->
+
+	<!--We want div section 1 and 2 to be next opposite sides of each other--> 
+			<!--make sure to add in each style section 1: float:left; section 2 float:right; this places the boxes on opposite sides of each other-->
+<head>
+			
+			
+		
+			<title>Floating</title>
+			 
+					<style type="text/css">
+
+						.red {
+
+							 color: red;  
+
+						}
+
+						.large {
+
+							font-size: 200%;
+
+						}
+
+						.underlined {
+
+							text-decoration: underline;
+
+						}
+
+
+						#green {
+
+							color: green
+
+						}
+						
+						#first-section {
+							
+							color: #4385F4;
+							background-color: #4BEAAF;
+							width: 200px;
+							float: left
+							
+						}
+						
+						.second-section {
+							
+							background-color: #A986F0;
+							width: 200px;
+							float:left
+							
+						}
+						
+						.clear-float {
+							
+							clear: both
+							
+						}
+					</style>
+						
+		</head>
+	
+	
+		<body> 
+			
+			
+				
+			
+				<div id="first-section">
+						<p>The Quick Brown Fox Jumped Over the Lazy Dog</p>
+
+						<p>Wow I love Internal CSS</p>
+				</div>
+
+			
+			
+			
+				<div class=second-section>
+						<p id="green">This is some more text. <span class="underlined">And this text will become underlined</span></p>
+
+						<h1 class="red">CSS is cool!</h1>
+				</div>
+
+			
+			<!--We are now adding a paragraph Tag to see if the following sections will be affected by the floating div styles above-->
+			<!--we are very much affected by it. The paragraph below is floating in between the boxes.-->
+			
+			
+			<!--have added a clear float so the text does not become affected by the other floats; the text is not beneath the floating section above-->	
+			<div class="clear-float"></div>
+			<p>This paragraph is not floated!</p>
+			  
+			
+		</body>
+  
+
+</html> 

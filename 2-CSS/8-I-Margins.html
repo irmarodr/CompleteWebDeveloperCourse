@@ -1,0 +1,108 @@
+<!doctype html>
+<html> 
+
+<!--MARGINS-->
+	
+	<!--on div section 1, add - margin:100px; this will create a margin of 100px all around section 1--> 
+	<!--if we want div section 2 to the right of section 2, we add - float:left on both section 1 & 2; it is obvious the margin is still working-->
+	
+	
+	
+	<!--can have different margins on each side by adding - margin:100px 50px; 100px will be from the top, 50px will from left to right-->
+	
+	
+	
+	<!--can set all sides to something different on every side - margin: 100px 50px 20px 10px; goes clockwise: top, right, bottom, left-->
+	
+		
+	
+	<!--only set one particular margin and leave the rest as whatever they are  - --> 
+	
+		
+	
+<head>
+	
+			<title>Floating</title>
+			 
+					<style type="text/css">
+
+						.red {
+
+							 color: red;  
+
+						}
+
+						.large {
+
+							font-size: 200%;
+
+						}
+
+						.underlined {
+
+							text-decoration: underline;
+
+						}
+
+
+						#green {
+
+							color: green
+
+						}
+						
+						#first-section {
+							
+							color: #4385F4;
+							background-color: #4BEAAF;
+							width: 200px;
+							margin-left: 150px; 
+							margin-top: 100px;
+							
+						
+						}
+						
+						.second-section {
+							
+							background-color: #A986F0;
+							margin: 50px 20px;
+							
+						}
+						
+						
+					</style>
+						
+		</head>
+	 
+	
+		<body> 
+			
+			
+				
+			
+				<div id="first-section">
+						<p>The Quick Brown Fox Jumped Over the Lazy Dog</p>
+
+						<p>Wow I love Internal CSS</p>
+				</div>
+
+			
+		
+			<!--UDEMY CHALLENGE 50px on top & bottom, 20px left & right-->
+			<!--solution 1 - margin: 50px 20px;-->
+			<!--solution 2 - margin: 50px 20px 20px 50px-->
+			<!--solution 3 - margin-top:50px; margin-bottom:50px; margin-left:20px; margin-right:20px;--> 
+				<div class=second-section>
+						<p id="green">This is some more text. <span class="underlined">And this text will become underlined</span></p>
+
+						<h1 class="red">CSS is cool!</h1>
+				</div>
+
+		
+			<p>This paragraph is not floated!</p>
+			  
+			
+		</body>
+  
+
+</html> 

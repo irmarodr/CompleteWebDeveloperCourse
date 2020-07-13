@@ -1,0 +1,96 @@
+<!doctype html>
+<html> 
+
+<!-- RELATIVE POSITIONING-->
+	
+<head>
+		<!--Section 1 add: positioning:relative-->
+		<!--Section 1 add: left:100px; this moves the box 200px from the left--> 	
+		<!--Section 1 add: left:-50pxpx; this moves the box -50px to the left & moves off from the screen--> 		
+		<!--Section 1 add: top:100px; this moves the box down  100px from the top--> 	
+			<title>Floating</title>
+			 
+					<style type="text/css">
+
+						.red {
+
+							 color: red;  
+
+						}
+
+						.large {
+
+							font-size: 200%;
+
+						}
+
+						.underlined {
+
+							text-decoration: underline;
+
+						}
+
+
+						#green {
+
+							color: green
+
+						}
+						
+						#first-section {
+							
+							color: #4385F4;
+							background-color: #4BEAAF;
+							width: 200px;
+							position: relative;
+							left:100px;
+							top:100px;
+							
+							
+						}
+						
+						.second-section {
+							
+							background-color: #A986F0;
+							width: 200px;
+							position: relative;
+							left:100px;
+							bottom:100px;						
+							
+						}
+						
+						
+					</style>
+						
+		</head>
+	 
+	
+		<body> 
+			
+			
+				
+			
+				<div id="first-section">
+						<p>The Quick Brown Fox Jumped Over the Lazy Dog</p>
+
+						<p>Wow I love Internal CSS</p>
+				</div>
+
+			
+			<!--Challenge from the video-->
+			<!--move Section 2: 100px to the right, 100px up from where it is now.-->
+			
+				<div class=second-section>
+						<p id="green">This is some more text. <span class="underlined">And this text will become underlined</span></p>
+
+						<h1 class="red">CSS is cool!</h1>
+				</div>
+
+		
+			<p>This paragraph is not floated!</p>
+			  
+			
+		</body>
+  
+
+</html> 

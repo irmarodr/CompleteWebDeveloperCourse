@@ -1,0 +1,71 @@
+<!doctype html> 
+
+<!--REFRESHER TO BEGIN Borders-->
+
+
+<!--Adding borders to our elements-->
+
+
+<html>
+	
+    <head>
+		
+		
+		<title>Webpage with Style</title>
+			
+		<!--Want to make 3x squares, width 100px; height:100px, 3 different colors-->
+			<!--create ids on body and style, add in background- color; height:100px; width:100px; three colored squared should appear-->
+			<!--these are all appearing one on top of each other with no space in between-->
+		
+			<style type="text/css">
+				
+				#square-red {
+					
+					background-color: red;
+				
+				}
+				
+				#square-blue {
+					
+					background-color: blue;
+					
+				}
+				
+				#square-green {
+					
+					background-color: green;
+					
+				}
+				
+				.square {
+					
+					width: 100px;
+					height: 100px;
+					margin:30px;
+					float: left;
+				}
+
+			</style>
+
+		
+    </head>
+	
+    
+    <body>
+		
+    	<!--Adding a class of sqaure to each individual ID-->
+		<!--Then put anything that is common to all three of them - height and width and remove from the ID tags in styles -->
+			<!--great idea to use this because it requires less text to be typed out, saves space and you can control all three squares with things in common-->
+		<!--adding - margin:40px; to styles spread them out a bit--> 
+		<!--I want them to be at the top, add - float:left in style for class-->
+		
+		
+		<div id="square-red" class="square"></div>
+    	
+		<div id="square-blue" class="square"></div>
+		
+		<div id="square-green" class="square"></div>
+		
+    </body>
+	
+</html>

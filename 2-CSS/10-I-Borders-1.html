@@ -1,0 +1,86 @@
+<!doctype html> 
+
+<!--REFRESHER TO BEGIN Borders-->
+
+<!--to view more styles visit: https://www.w3schools.com/cssref/pr_border-style.asp--> 
+
+
+<!--Adding borders to our elements-->
+	<!--in #square-red - Need to specify three things for border: width:10px color:black style:solid;-->
+
+
+	<!--in #squre-blue - if you want border sizes to all be different specify - border-style: solid stripe dotted ridge-->
+	<!--in #square-blue - each side of thr border is a different color - border-color: yellow pink darkgreen magent-->
+	<!--in #square-blue - each side of thr border is a different width - border-width: 5px 10px 15px 20px;-->
+
+<!--in #square-green - add a a radius, round edges - border-radius: 20px;-->
+
+	<html>
+	
+    <head>
+		
+		
+		<title>Webpage with Style</title>
+			
+	
+			<style type="text/css">
+				
+				#square-red {
+					
+					background-color: red;
+					border: 10px black solid;
+					
+				}
+				
+				#square-blue {
+					
+					background-color: blue;
+					border-style: dashed dotted ridge dotted;
+					border-color: yellow pink darkgreen magenta;
+					border-width: 5px 10px 15px 20px;
+					
+				}
+				
+				#square-green {
+					
+					background-color: green;
+					border-radius: 20px;
+				}
+				
+				#square-purple {
+					
+					background-color: purple;
+					border-radius: 50%;
+					
+				}
+				
+				.square {
+					
+					width: 100px;
+					height: 100px;
+					margin:30px;
+					float: left;
+				}
+
+			</style>
+
+		
+    </head>
+	
+    
+    <body>
+		
+		
+	
+		<div id="square-red" class="square"></div>
+    	
+		<div id="square-blue" class="square"></div>
+		
+		<div id="square-green" class="square"></div>
+		
+	<!--CHALLENGE - to make a circle out of squares - radius is half of what the square normally is so add - border radius: 50% on the style section-->
+		<div id="square-purple" class="square"></div>
+		
+    </body>
+	
+</html>

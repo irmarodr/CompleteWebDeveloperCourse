@@ -1,0 +1,92 @@
+<!doctype html> 
+
+<html>
+	
+	
+<!--STYLING TEXT-->
+	<!--bold,italic,underline, links, BIG; generally better off adding the styling in the style section of the head instead -->
+	<!--Other examples can be seen at: https://www.w3schools.com/css/css_text.asp-->
+	
+    <head>
+		<!--font-weight: can be precise or just state bold-->
+		
+		<title>Webpage with Style</title>
+			
+		<style type="text/css">
+		
+			.bold {
+				
+				font-weight: bold
+				
+			}
+			
+			.italic {
+				
+				font-style: italic 
+				
+			}
+			
+			.underlined { 
+			
+				text-decoration: underline;	
+			
+			}
+		
+			a { 
+			
+				text-decoration: none;
+				
+			}
+			
+			a:hover {
+				
+				text-decoration: underline;
+				color: green;
+				
+			}
+			
+			.big {
+				
+				 font-size: 100px;
+				
+			}
+		</style>
+		
+		
+    </head>
+	
+    
+    <body>
+		
+    
+		<!--1. This is Bold, add a class as bold here, then go into styles in head and add - font-weight:bold-->
+		<p class="bold">This is Some Bold Text!</p>
+		
+		
+		
+		<!--2. This is Italic, add class as Italic here, then go into styles in head and add - font-styles:italic-->
+			<!--the last sentence is both bold and italic, best thing to do is add a span tag and add class:bold because italic is already present-->
+		<p class="italic">This is Text is Italic! <span class="bold">And This is Bold and Italic</span> </p>
+		
+		
+		<!--3. This is Underline, add class as underline here--> 
+		<p class="underlined">This is Tect is Underlined!</p>
+		
+		
+		<!--4. You dont want your link to be underlined, an empty example, add a to the styles for all links you will be adding as a {text-decoration:none-->
+		<a href="">This is a non underlined link</a>
+		
+		
+		
+		<!--5. Allow a line to appear when you hover over a link, add a seudo selector in the the styles - a:hover; this styles a link in a certain condition, color can also be changed just by adding color:green;-->
+		<a href=""> </a>
+		
+		<!--6. BIG text-->
+		<p class="big">This Text is BIG!!</p>
+		
+		
+    
+		
+    </body>
+	
+</html>

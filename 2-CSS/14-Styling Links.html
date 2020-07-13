@@ -1,0 +1,57 @@
+<!doctype html> 
+
+<html>
+	
+<!--Links - where you hover and becomes underlined with color-->	
+	<!--To get to know more pseudo classifications visit: https://www.w3schools.com/css/css_pseudo_classes.asp-->
+    <head>
+		
+		
+		<title>Webpage with Style</title>
+			
+		<style type="text/css">
+		
+			a {
+				
+				text-decoration: none;
+				
+			}
+			
+			a:hover {
+				
+				text-decoration: underline;
+				color:green;
+				
+			}
+			
+			a:visited {
+				
+				color: aqua;
+				
+			}
+			
+		</style>
+		
+		
+    </head>
+	
+    
+    <body>
+		
+		<!--1. NOT underlined link, needs to have the full https:// section: to tell browser this is not a relative link, then add to styles - a {text-decoration: none;} then add - a:hover { text-decoration; color: green}-->
+		<a href="https://www.google.com/">Google</a><br>
+		
+		
+		<!--2. Open link in a new tab, set a new attribute=blank-->
+    	<a href="https://www.google.com/" target="_blank">Google in a New Tab</a><br>
+		
+		
+		
+		<!--MORE PSEUDO Classes--> 
+		
+		<!--Visitor - changes when a visitor has been there--> 
+		<a href="https://www.google.de" target="_blank">Google in a New Tab</a>
+		
+    </body>
+	
+</html>

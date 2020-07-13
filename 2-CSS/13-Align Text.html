@@ -4,7 +4,7 @@
 	
 	<!--ALIGN TEXT-->
 
-
+<!--Generic Text - https://loremipsum.io/-->
 	
 <!--How text will be alligned on the page-->
 	
@@ -16,7 +16,30 @@
 			
 		<style type="text/css">
 		
+			p { 
 			
+				 text-align:  right;
+				
+			}
+			
+			div {
+				
+				width: 300px;
+				background-color: green;
+				
+			}
+			
+			.centered {
+				
+				text-align: center; 
+				
+			}
+			
+			.justified {
+				
+				text-align: justify;
+				
+			}
 			
 		</style>
 		
@@ -27,8 +50,26 @@
     <body>
 		
     
+		<!--1. want text to be aligned to the right of the the parent element-->
+			<p>This is Some Text!</p>
 		
-		<p >This is Some Bold Text!</p>
+		
+		<!--2.If the same sentence was inside of a div tag, the text will align to the right of the div-->
+		<!--The text will go along with parent element-->
+		<div>
+			<p>This is Some Right Aligned Text!</p>
+			
+		<!--3. Within the div and background the text can be centered, add class:centered to style and to p tag, -->
+			<p class="centered">This Text is Centered</p>
+			
+			
+		<!--4.changes the letters and word spacing-->
+			<p class="justified">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			
+		<!--5.-->
+		
+		</div>
+		
 		
 		
 

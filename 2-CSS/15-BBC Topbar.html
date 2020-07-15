@@ -127,104 +127,104 @@
 	
     
     <body>
-	<!-- 1. Creat a div & center it: <div style="width:800px; margin:0 auto;"> centered content
-    </div>
-			a. add background color to get an idea of what the area will look like -->
-		
-		
-	<!-- 2. Start with the id=topbar {width:1000px; margin:auto; height:40px -->
+				<!-- 1. Creat a div & center it: <div style="width:800px; margin:0 auto;"> centered content
+				</div>
+						a. add background color to get an idea of what the area will look like -->
+
+
+				<!-- 2. Start with the id=topbar {width:1000px; margin:auto; height:40px -->
 		<div id="topbar">
-		<!--a. Remove the background-color because it is in the correct place -->
+					<!--a. Remove the background-color because it is in the correct place -->
 			
 	
-	<!-- 3. Remove the default white space - body {margin:0; padding:0;} -->
-		
+				<!-- 3. Remove the default white space - body {margin:0; padding:0;} -->
 
-			
-	<!-- 4. Create the BBC Logo, Steal it Directly from the page, ad id tag and chnage in styles - margin-top: 8px, width:100px to change the size of the photo and to change the margin from the top of the webpage, I also change the width to appear to a similar size on the clone, also make it float to the left to add the rest from the topbar--> 
+
+
+				<!-- 4. Create the BBC Logo, Steal it Directly from the page, ad id tag and chnage in styles - margin-top: 8px, width:100px to change the size of the photo and to change the margin from the top of the webpage, I also change the width to appear to a similar size on the clone, also make it float to the left to add the rest from the topbar--> 
 				<img id="logo" src="BBC-Images/BBCLogo.png">
 			
-	<!-- 5. sign in-, we want it to be float:left, with a border:left color pick solid; and for the remaining in the topbar so we should create a class="topbar-section" in the style section, add height: 100% to completely fill the topbar, then we need to adjust how the line by adding margin: 8px on the logo-->
+				<!-- 5. sign in-, we want it to be float:left, with a border:left color pick solid; and for the remaining in the topbar so we should create a class="topbar-section" in the style section, add height: 100% to completely fill the topbar, then we need to adjust how the line by adding margin: 8px on the logo-->
 			
 			
 		<div id="signin-div" class="topbar-section">
-			<!-- a. The sign in area has 2 images from sigin command+ shift+ 4 and drop into image folder and rename to make it easy to find.
-				 b. add the 2 images into the "signin-div"; the image is much larger than needed so we will have to resize; give and id=sign-image then adjust the width and also the margin: top and left away from the border to match the clone-->
-				<img id="signin-image" src="BBC-Images/SigninHead.png">
+					<!-- a. The sign in area has 2 images from sigin command+ shift+ 4 and drop into image folder and rename to make it easy to find.
+					b. add the 2 images into the "signin-div"; the image is much larger than needed so we will have to resize; give and id=sign-image then adjust the width and also the margin: top and left away from the border to match the clone-->
+					<img id="signin-image" src="BBC-Images/SigninHead.png">
 					
-				<!-- c. Sign text float:left on sigin-image; right click on chrome and select inspect and find the font-family, change the font for everything within our body style: Helvetica,Arial,freesans,sans-serif; this will change the font of the words "Sign in; make it a span because it is not a paragraph, change the style of sigin-text from the top, margin-top: failed to move so I will try position: relative; top:11px --THIS HAS WORKED-->
-			<span id="signin-text">Sign in</span>
+					<!-- c. Sign text float:left on sigin-image; right click on chrome and select inspect and find the font-family, change the font for everything within our body style: Helvetica,Arial,freesans,sans-serif; this will change the font of the words "Sign in; make it a span because it is not a paragraph, change the style of sigin-text from the top, margin-top: failed to move so I will try position: relative; top:11px --THIS HAS WORKED-->
+				<span id="signin-text">Sign in</span>
 		</div> 
-				<!--d. Create the border after the signin button, it is not on CSS borders so I will take a screen shot of it and save it to my folder, did the same for the bell. Create a new div still inside topbar -->
+					<!--d. Create the border after the signin button, it is not on CSS borders so I will take a screen shot of it and save it to my folder, did the same for the bell. Create a new div still inside topbar -->
 			
 			
 		<div id="bell-div">
-				<!-- e. create id=wigglyline in styles, float:left; height: 40px - which is the same height that we gave the #topbar originally; it is very close to the sign-text and will adjust it on #signin-text - padding-right: 50 px; this allows the indented line to move to the right of the text by 50 px-->
-				 <img id="wigglyline" src="BBC-Images/Indented-Line.png">
+					<!-- e. create id=wigglyline in styles, float:left; height: 40px - which is the same height that we gave the #topbar originally; it is very close to the sign-text and will adjust it on #signin-text - padding-right: 50 px; this allows the indented line to move to the right of the text by 50 px-->
+					 <img id="wigglyline" src="BBC-Images/Indented-Line.png">
 			
-	<!-- 6. Bell, still inside the bell-div; insert the bell image; create a style id=bell change the height & margin. Create another new style id=bell-div float:left-->
+				<!-- 6. Bell, still inside the bell-div; insert the bell image; create a style id=bell change the height & margin. Create another new style id=bell-div float:left-->
 				<img id="bell" src="BBC-Images/bell.png">
 		</div>		
 	
 			
-	<!--7. The remaining topbar should be easier to add, add two classes as seen below, .topbar-menu to be added on styles sinse the other already exists; make the text bold and 90% just like the text previously added add padding because and height=subtracted from padding amount 40-13=27px-->
+				<!--7. The remaining topbar should be easier to add, add two classes as seen below, .topbar-menu to be added on styles sinse the other already exists; make the text bold and 90% just like the text previously added add padding because and height=subtracted from padding amount 40-13=27px-->
 			
 		<div class="topbar-section topbar-menu">
 			
-			News
+				News
 			
 		</div>
 			
 		
 		<div class="topbar-section topbar-menu">
 			
-			Sport
+				Sport
 			
 		</div>
 			
 		
 		<div class="topbar-section topbar-menu">
 			
-			Weather
+				Weather
 			
 		</div>
 				
 			
 		<div class="topbar-section topbar-menu">
 			
-			iPlayer
+				iPlayer
 			
 		</div>
 			
 			
 		<div class="topbar-section topbar-menu">
 			
-			TV
+				TV
 			
 		</div>
 			
 			
 		<div class="topbar-section topbar-menu">
 			
-			Radio
+				Radio
 			
 		</div>
 			
 			
 		<div class="topbar-section topbar-menu">
 			
-			More
-			<!--a. add the little arrow next to where it says more; screenshot and save into CSS folder-->
-			<img id="more-arrow" src="BBC-Images/down-arrow.png">
+				More
+				<!--a. add the little arrow next to where it says more; screenshot and save into CSS folder-->
+				<img id="more-arrow" src="BBC-Images/down-arrow.png">
 			
 		</div>
 			
 	<!-- 8. Search Box; Create a new div section id=search-box; copy color of the search box, and screen shot and save photo in the folder, Input text box, type will be text, value search-->	
 		<div class="topbar-section">
 			 
-			 <input id="search-box" type="text" value="search">
+				<input id="search-box" type="text" value="search">
 			<!--Making the magnifying glass click-able (obviously not linked in anything)-->
-			<input type="image" id="magnifying-glass" src="BBC-Images/magnifying-glass.png">
+				<input type="image" id="magnifying-glass" src="BBC-Images/magnifying-glass.png">
 			
 		</div>
 			
